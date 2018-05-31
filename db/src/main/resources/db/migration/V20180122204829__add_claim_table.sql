@@ -1,6 +1,6 @@
 CREATE TABLE claim
 (
-  id            BIGINT PRIMARY KEY AUTO_INCREMENT,
+  id            BIGSERIAL PRIMARY KEY,
   solver        TEXT        NOT NULL,
   amount_in_wei NUMERIC(50) NOT NULL,
   request_id    BIGINT      NOT NULL,

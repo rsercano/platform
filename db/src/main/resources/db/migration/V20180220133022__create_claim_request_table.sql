@@ -1,6 +1,6 @@
 CREATE TABLE request_claim
 (
-  id                 BIGINT PRIMARY KEY AUTO_INCREMENT,
+  id                 BIGSERIAL PRIMARY KEY,
   creation_date      TIMESTAMP,
   last_modified_date TIMESTAMP,
   created_by         VARCHAR(1000),

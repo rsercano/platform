@@ -1,4 +1,4 @@
-CREATE TABLE user (
+CREATE TABLE "user" (
   id                 VARCHAR(100),
   creation_date      TIMESTAMP,
   last_modified_date TIMESTAMP,

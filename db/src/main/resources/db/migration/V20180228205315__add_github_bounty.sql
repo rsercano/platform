@@ -1,5 +1,5 @@
 CREATE TABLE github_bounty (
-  id         BIGINT NOT NULL AUTO_INCREMENT,
+  id         BIGSERIAL NOT NULL,
   user_id    VARCHAR(100),
   github_id  VARCHAR(100),
   created_at TIMESTAMP,

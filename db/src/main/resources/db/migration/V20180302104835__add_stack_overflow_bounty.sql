@@ -1,5 +1,5 @@
 CREATE TABLE stack_overflow_bounty (
-  id                BIGINT NOT NULL AUTO_INCREMENT,
+  id                BIGSERIAL NOT NULL,
   user_id           VARCHAR(100),
   stack_overflow_id VARCHAR(100),
   image             VARCHAR(1500),

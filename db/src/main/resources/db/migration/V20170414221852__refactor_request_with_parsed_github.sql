@@ -1,5 +1,5 @@
 ALTER TABLE request
-  CHANGE label title VARCHAR(2000);
+  rename label to title;
 
 ALTER TABLE request
   ADD COLUMN owner VARCHAR(250);

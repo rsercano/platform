@@ -1,5 +1,5 @@
 create table pending_funds (
-  id               BIGINT PRIMARY KEY AUTO_INCREMENT,
+  id               BIGSERIAL PRIMARY KEY,
   transaction_hash varchar(66)        default null,
   description      text               default null,
   address_from     varchar(42)        default null,

@@ -1,5 +1,5 @@
 CREATE TABLE request (
-  id                 BIGINT NOT NULL AUTO_INCREMENT,
+  id                 BIGSERIAL NOT NULL,
   creation_date      TIMESTAMP,
   last_modified_date TIMESTAMP,
   created_by         VARCHAR(1000),

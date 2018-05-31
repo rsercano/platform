@@ -1,5 +1,5 @@
 CREATE TABLE survey (
-  id            BIGINT(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  id            BIGSERIAL NOT NULL PRIMARY KEY,
   user_id       VARCHAR(100),
   email         VARCHAR(150),
   status        VARCHAR(50),

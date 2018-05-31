@@ -1,2 +1,1 @@
-ALTER TABLE request
-  MODIFY COLUMN platform_id TEXT;
+ALTER TABLE request ALTER COLUMN platform_id TYPE TEXT;

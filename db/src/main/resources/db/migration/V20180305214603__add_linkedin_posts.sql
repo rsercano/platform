@@ -1,5 +1,5 @@
 CREATE TABLE linkedin_post (
-  id                  BIGINT(20) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  id                  BIGSERIAL NOT NULL PRIMARY KEY,
   comment             VARCHAR(700),
   title               VARCHAR(200),
   description         VARCHAR(256),

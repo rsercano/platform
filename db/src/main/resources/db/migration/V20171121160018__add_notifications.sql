@@ -1,5 +1,5 @@
 CREATE TABLE notification (
-  id                BIGINT PRIMARY KEY AUTO_INCREMENT,
+  id                BIGSERIAL PRIMARY KEY,
   notification_date TIMESTAMP,
   type              VARCHAR(50),
   request_id        BIGINT,
